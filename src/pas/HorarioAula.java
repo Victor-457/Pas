@@ -28,5 +28,7 @@ public class HorarioAula extends Horas{
 		return this.turno + ": " + this.getHoras();
 	}
 
-	
+	public Boolean compara(HorarioAula h1,HorarioAula h2) {
+		return h1.inicio==h2.inicio;
+	}
 }
